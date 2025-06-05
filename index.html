@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mermaid Offline Example</title>
+  <script src="mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+
+<h2>Homicide Classification</h2>
+
+<div class="mermaid">
+graph TD
+  A[Homicide] --> B{Intentional?}
+  B -- Yes --> C[Murder]
+  C --> D[First / Second Degree]
+  B -- No --> E{Felony Murder?}
+  E -- Yes --> C
+  E -- No --> F[Involuntary Manslaughter]
+  E -- Neither --> G[Non-criminal]
+</div>
+
+</body>
+</html>
