@@ -1,3 +1,13 @@
+# Criminal Law Outline
+
+ **Homicide Classification Flowchart**
+
+![Homicide Flowchart](./diagram.png)
+
+ [Click to view live site](https://saulchristian.github.io/criminal-law-outline/)
+
+
+
 The U.S. Supreme Court has held that the Constitution does not require a jury in a criminal trial to consist of 12 members or to have a unanimous verdict in state criminal cases. However, The Constitution requires unanimity where only a 6-person jury is used. Williams v. Florida, 339 U.S. 78 (1970).
 
  Fourth Amendment:
